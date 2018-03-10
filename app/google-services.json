@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "822892634018",
+    "firebase_url": "https://dogsappdam.firebaseio.com",
+    "project_id": "dogsappdam",
+    "storage_bucket": "dogsappdam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822892634018:android:3f8090af38871a4d",
+        "android_client_info": {
+          "package_name": "com.example.ruben.dogsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822892634018-ap35ou6m50vpq3movrbh3krq8u03sbcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy7ojjvTU3HRDr2dGa9NxXvmoCYzOUdi0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
