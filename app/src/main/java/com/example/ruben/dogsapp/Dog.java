@@ -7,6 +7,18 @@ package com.example.ruben.dogsapp;
 public class Dog {
 
     private  String name;
+    private  String url;
+    private  String descripcion;
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+
 
     public String getName() {
         return name;
@@ -27,6 +39,6 @@ public class Dog {
     public Dog() {
     }
 
-    private  String url;
+
 }
 

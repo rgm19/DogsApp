@@ -33,16 +33,6 @@ public class FirebaseClient  {
         firebase=new Firebase(DB_URL);
     }
 
-    public  void savedata(String name, String url)
-    {
-        Dog d= new Dog();
-        d.setName(name);
-        d.setUrl(url);
-
-        firebase.child("dog").push().setValue(d);
-
-
-    }
 
     public  void refreshdata()
     {
@@ -82,6 +72,7 @@ public class FirebaseClient  {
             Dog d= new Dog();
             d.setName(ds.getValue(Dog.class).getName());
             d.setUrl(ds.getValue(Dog.class).getUrl());
+            d.setDescripcion(ds.getValue(Dog.class).getDescripcion());
             dogies.add(d);
 
         }

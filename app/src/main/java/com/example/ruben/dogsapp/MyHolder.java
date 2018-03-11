@@ -8,12 +8,11 @@ public class MyHolder {
 
     TextView nameTxt;
     ImageView img;
-    public MyHolder(View itemView) {
 
+    public MyHolder(View itemView) {
 
         nameTxt= (TextView) itemView.findViewById(R.id.nameTxt);
         img=(ImageView) itemView.findViewById(R.id.dogimage);
-
 
     }
 }
