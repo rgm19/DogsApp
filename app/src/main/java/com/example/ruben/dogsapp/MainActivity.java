@@ -1,18 +1,13 @@
 package com.example.ruben.dogsapp;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentManagerNonConfig;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
@@ -62,10 +57,12 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_inicio) {
             f.beginTransaction().replace(R.id.contenedor, new InicioFragment()).commit();
         } else if (id == R.id.nav_mascotas) {
-            f.beginTransaction().replace(R.id.contenedor, new PruebaFragment()).commit();
+            f.beginTransaction().replace(R.id.contenedor, new MascotasFragment()).commit();
 
         } else if (id == R.id.nav_map) {
 
+        } else if (id == R.id.nav_acerca){
+            f.beginTransaction().replace(R.id.contenedor, new AcercadeFragment()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
