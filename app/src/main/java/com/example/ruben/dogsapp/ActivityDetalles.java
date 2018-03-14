@@ -14,7 +14,7 @@ public class ActivityDetalles extends AppCompatActivity {
 
     static Dog dogie = new Dog();
     ImageView img_detalles;
-    TextView descripcion , comportamiento, carac;
+    TextView descripcion , comportamiento, origen;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +33,10 @@ public class ActivityDetalles extends AppCompatActivity {
 
         descripcion = findViewById(R.id.detalles_descripcion);
         descripcion.setText(dogie.getDescripcion());
+        comportamiento = findViewById(R.id.detalles_comportamiento);
+        comportamiento.setText(dogie.getComportamiento());
+        origen = findViewById(R.id.detalles_origen);
+        origen.setText(dogie.getOrigen());
 
     }
 

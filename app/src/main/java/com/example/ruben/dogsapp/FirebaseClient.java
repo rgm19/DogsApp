@@ -73,6 +73,8 @@ public class FirebaseClient  {
             d.setName(ds.getValue(Dog.class).getName());
             d.setUrl(ds.getValue(Dog.class).getUrl());
             d.setDescripcion(ds.getValue(Dog.class).getDescripcion());
+            d.setOrigen(ds.getValue(Dog.class).getOrigen());
+            d.setComportamiento(ds.getValue(Dog.class).getComportamiento());
             dogies.add(d);
 
         }

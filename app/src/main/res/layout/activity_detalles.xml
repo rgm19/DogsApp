@@ -61,6 +61,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_keylines"
+                android:text="@string/origen"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/article_titles" />
+
+            <TextView
+                android:id="@+id/detalles_origen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/md_keylines"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/md_keylines"
                 android:text="@string/descripci_n"
                 android:textColor="?attr/colorAccent"
                 android:textSize="@dimen/article_titles" />
@@ -81,10 +97,12 @@
                 android:textSize="@dimen/article_titles" />
 
             <TextView
-                android:id="@+id/place_location"
+                android:id="@+id/detalles_comportamiento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/detail_location" />
+                android:layout_marginBottom="@dimen/md_keylines"
+
+                />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>
