@@ -27,4 +27,6 @@
     <string name="descripci_n">Descripción</string>
     <string name="comportamiento">Comportamiento</string>
     <string name="origen">Origen</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_fragment_maps">Map</string>
 </resources>

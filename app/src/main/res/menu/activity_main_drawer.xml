@@ -13,10 +13,6 @@
             android:icon="@drawable/ic_menu_mascotas"
             android:title="Mascotas" />
         <item
-            android:id="@+id/nav_map"
-            android:icon="@drawable/ic_menu_map"
-            android:title="Mapa" />
-        <item
             android:id="@+id/nav_acerca"
             android:icon="@drawable/ic_nav_info"
             android:title="Acerca de" />

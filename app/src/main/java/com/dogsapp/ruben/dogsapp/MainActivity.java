@@ -1,6 +1,9 @@
-package com.example.ruben.dogsapp;
+package com.dogsapp.ruben.dogsapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -9,6 +12,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -32,6 +36,15 @@ public class MainActivity extends AppCompatActivity
 
         FragmentManager f = getSupportFragmentManager();
         f.beginTransaction().replace(R.id.contenedor, new InicioFragment()).commit();
+
+        FloatingActionButton fab =  findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(),FragmentMaps.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -58,8 +71,6 @@ public class MainActivity extends AppCompatActivity
             f.beginTransaction().replace(R.id.contenedor, new InicioFragment()).commit();
         } else if (id == R.id.nav_mascotas) {
             f.beginTransaction().replace(R.id.contenedor, new MascotasFragment()).commit();
-
-        } else if (id == R.id.nav_map) {
 
         } else if (id == R.id.nav_acerca){
             f.beginTransaction().replace(R.id.contenedor, new AcercadeFragment()).commit();

@@ -1,4 +1,4 @@
-package com.example.ruben.dogsapp;
+package com.dogsapp.ruben.dogsapp;
 
 /**
  * Created by Ruben on 02/03/2018.

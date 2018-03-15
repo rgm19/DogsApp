@@ -1,4 +1,4 @@
-package com.example.ruben.dogsapp;
+package com.dogsapp.ruben.dogsapp;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

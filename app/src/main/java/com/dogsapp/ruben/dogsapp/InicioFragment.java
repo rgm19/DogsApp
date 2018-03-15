@@ -1,4 +1,4 @@
-package com.example.ruben.dogsapp;
+package com.dogsapp.ruben.dogsapp;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import static com.example.ruben.dogsapp.ActivityDetalles.dogie;
+import static com.dogsapp.ruben.dogsapp.ActivityDetalles.dogie;
 
 
 public class InicioFragment extends Fragment {

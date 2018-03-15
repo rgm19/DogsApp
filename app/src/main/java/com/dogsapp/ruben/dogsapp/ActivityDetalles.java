@@ -1,4 +1,4 @@
-package com.example.ruben.dogsapp;
+package com.dogsapp.ruben.dogsapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
